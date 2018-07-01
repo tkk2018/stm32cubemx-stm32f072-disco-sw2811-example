@@ -2,11 +2,11 @@
 
 ## Specifications
 
-### STM32CubeMx
-- **Software version**<br />
+### STM32CubeMX
+**Software version**<br />
 >4.19.0
 
-- **STM32CubeF0 version**<br />
+**STM32CubeF0 version**<br />
 >1.7.0
 
 ### SW2811
