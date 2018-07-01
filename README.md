@@ -3,8 +3,11 @@
 ## Specifications
 
 ### STM32CubeMx
-Software: v4.19.0<br />
-Firmware: v1.7.0<br />
+**Software version**<br />
+>4.19.0
+
+**Firmware version**<br />
+>1.7.0
 
 ### SW2811
 The data transmission time (TH + TL = 1.25u±600ns)<br />
