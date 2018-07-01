@@ -95,7 +95,6 @@ void SW2811_DemoRainbow(uint32_t);
 
 void SW2811_SetRgbBuffer(uint32_t led_index, uint8_t r, uint8_t g, uint8_t b)
 {
-	
 	led_index = led_index % LED_NUMBER; // prevent overflow
 	uint8_t temp[GRB_DATA_SIZE];
 	uint32_t i;
@@ -128,9 +127,9 @@ void SW2811_SetAllRgbBuffer(uint8_t r, uint8_t g, uint8_t b)
 void SW2811_UpdateRgbBuffer()
 {
 	if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
-  {
-    Error_Handler();
-  }
+	{
+		Error_Handler();
+	}
 	HAL_TIM_PWM_Start_DMA(&htim1, TIM_CHANNEL_1, led_buffer, LED_BUFFER_SIZE);
 }
 
