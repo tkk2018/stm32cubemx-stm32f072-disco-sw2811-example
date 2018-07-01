@@ -5,11 +5,17 @@
 ### STM32CubeMx
 Software: v4.19.0<br />
 Firmware: v1.7.0<br />
-µ
+
 ### SW2811
 The data transmission time (TH + TL = 1.25u±600ns)<br />
-| TH0 | 0 code, high level time | 0.3µs | ±0.15µs |<br />
+
+| Logic | Description | Time | Floating |
 | --- | --- | --- | --- |
+| T0H | 0 code, high level time | 0.3µs | ±0.15µs |
+| T0L | 0 code, low level time | 0.9µs | ±0.15µs |
+| T1H | 1 code, high level time | 0.6µs | ±0.15µs |
+| T1L | 1 code, low level time | 0.6µs | ±0.15µs |
+| RES | Reset code, low level time | 80µ | ±0.15µs |
 
 
 ## References
