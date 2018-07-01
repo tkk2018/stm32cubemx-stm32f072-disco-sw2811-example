@@ -1,4 +1,4 @@
-# stmcubemx-stm32f072-disco-sw2811-example
+# stm32cubemx-stm32f072-disco-sw2811-example
 
 ## Specifications
 
