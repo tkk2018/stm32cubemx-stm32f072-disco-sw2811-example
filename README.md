@@ -1,5 +1,5 @@
 # stm32cubemx-stm32f072-disco-sw2811-example
-An example of SW2811 with STM32F072-DISCO board by using the STM32CubeMX
+An example of SW2811 with STM32F072-DISCO board by using STM32CubeMX
 
 ## Specifications
 
